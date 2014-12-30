@@ -3,8 +3,9 @@
 
 Name:		plexus-component-factories-pom
 Version:	1.0
-Release:	0.7.alpha11.0%{?dist}
+Release:	0.8.alpha11.1
 Summary:	Plexus Component Factories POM
+Group:          Development/Java
 BuildArch:	noarch
 
 License:	ASL 2.0
@@ -34,7 +35,7 @@ cp -p %{SOURCE1} LICENSE
 %mvn_install
 %if 0%{?fedora}
 %else
-sed -i "s|1.0-alpha-11|1.0.alpha.11|" %{buildroot}%{_mavendepmapfragdir}/*
+sed -i "s|1.0-alpha-11|1.0.alpha.11|" %{buildroot}%{_datadir}/maven-metadata/*
 %endif
 
 %files -f .mfiles
