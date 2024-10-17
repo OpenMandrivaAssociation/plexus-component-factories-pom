@@ -9,7 +9,7 @@ Group:          Development/Java
 BuildArch:	noarch
 
 License:	ASL 2.0
-URL:		http://plexus.codehaus.org/
+URL:		https://plexus.codehaus.org/
 Source0:	http://repo1.maven.org/maven2/org/codehaus/plexus/%{artifactId}/%{version}-alpha-11/%{artifactId}-%{version}-alpha-11.pom
 Source1:	http://www.apache.org/licenses/LICENSE-2.0.txt
 
